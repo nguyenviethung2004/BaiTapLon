@@ -522,3 +522,23 @@ div.modal-dialog-footer {
 .dat-ve.open1{
     display: flex;
 }
+.bg-light{
+  position: relative;
+}
+
+.me{
+  display: none;
+  font-size: 48px;
+  position: absolute;
+  margin-top: -233px;
+  margin-left: 120px;
+}
+.card-img-top:hover+.me{
+  display: block;
+  opacity: 1;
+ 
+}
+.fa-circle-play{
+  color: #fff;
+}
+
