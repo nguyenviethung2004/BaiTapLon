@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+  }
+
+  #wrapper {
+    min-height: 100vh;
+  }
+
+  button.btn-open {
+    background: rgb(35, 89, 237);
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #modal-container {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  #modal-container.show {
+    opacity: 1;
+    pointer-events: all;
+    display: block;
+  }
+
+  #modal {
+    background: #fff;
+    max-width: 1000px;
+    min-width: none;
+    height: 510px;
+    min-height: none;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.25s ease-in-out;
+    border-radius: 20px;
+
+  }
+
+  #modal-container.show #modal {
+    top: 100px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dedede;
+  }
+
+  .modal-header h3 {
+    margin: 0;
+    font-size: 23px;
+    color: #333333;
+  }
+
+  button#btn-close {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: gray;
+  }
+
+  .modal-body {
+    padding: 15px 20px 15px;
+  }
+
+  .modal-body h1 {
+    text-align: center;
+    font-size: 33px;
+    color: #333333;
+    padding: 10px;
+  }
+
+
+  #modal-dialog-container {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  #modal-dialog-container.show-modal {
+    opacity: 1;
+    pointer-events: all;
+    display: block;
+  }
+
+  #modal2 {
+    background: #fff;
+    max-width: 700px;
+    min-width: none;
+    height: 458px;
+    min-height: none;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.25s ease-in-out;
+  }
+
+  #modal-dialog-container.show-modal #modal2 {
+    top: 100px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .modal-dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dedede;
+  }
+
+  .modal-dialog-header h3 {
+    margin: 0;
+  }
+
+  button#btn-closed {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .modal-dialog-body {
+    padding: 15px 20px 15px;
+  }
+
+  .modal-dialog-footer {
+    text-align: center;
+  }
+
+  #datve {
+    background-color: rgb(35, 89, 237);
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .modal-footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  a.nav-link span {
+    color: #000000;
+    font-size: 38px;
+  }
+
+  a.nav-link {
+    color: #000000;
+    font-size: 18px;
+  }
+
+
+  span.font-lg {
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a.btn.default {
+    background-color: rgb(237, 230, 230);
+  }
+
+  ul.nav {
+    padding: 20px;
+  }
+
+  div.col-lg-2 {
+    padding: 10px;
+  }
+
+  div.modal-dialog-header h3 {
+    font-size: 23px;
+  }
+
+  div.modal-dialog-body {
+    color: rgb(16, 94, 184);
+  }
+
+  #modal-dialog-container.show-modal #modal2 {
+    top: 125px;
+
+  }
+
+  div.modal-dialog-body {
+    padding: 30px 20px;
+
+  }
+
+  div.modal-dialog-body h3,
+  h4 {
+    padding: 8px;
+  }
+
+  div.modal-dialog-body h3 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  div.modal-dialog-body h4 {
+    font-size: 17px;
+  }
+
+  div.modal-dialog-footer {
+    padding: 30px;
+  }
+  .dat-ve{
+      display: none;
+  }
+  .container-1{
+    height: auto;
+    /* display: none; */
+   
+  }
+  .container-1.open{
+    display: flex;
+  }
+  .show-time.open{
+    display: flex;
+  }
+  .show-time{
+    display: none;
+  }
+  .time:focus {
+   outline: 2px solid blue;
+ }
+  .dat-ve.open1{
+      display: flex;
+  }

@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="tin_tuc.css">
+    <link rel="stylesheet" href="main_web.css">
+</head>
+<body>
+<div class="header container-fluid m-0">
+        <div class="row bg-black " style="border-bottom: 1px solid #fff;">
+            <div class="col-md-2" >    
+                <div class="col-md-10" ><img src="./images/Untitled_logo_3_free-file.jpg" alt="" class="img-fluid"></div>             
+            </div>          
+            <div class="col-md-7 nav "  style="padding: 0;">
+                <ul class="navbar-header col-md-11  my-auto" style="margin-left: 12%;">
+                    <li class="py-1"><a href="./demo.html" >Trang chủ</a></li>
+                    <li class="py-1 nav-location py-2" style="font-size: 17px; color: #fff;">Danh sách rạp
+                      <i class="ti-angle-down " style="font-size: 12px;margin-left: 2px;position: relative;"></i>
+                      
+                       <ul class="location-list bg-white text-black " >
+                        <li class="text-start px-3 py-2 ">Hà Nội
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                          <ul class="location-cinema location-cinema1 bg-white ">
+                            <li class="text-start px-3 py-2"><a href="./location-page.html" class="text-black">Cinex Thanh Xuân</a></li>
+                            <li class="text-start px-3 py-2"> <a href="./location-page.html" class="text-black">Cinex Mỹ Đình</a></li>
+                            <li class="text-start px-3 py-2"> <a href="./location-page.html" class="text-black">Cinex Cầu Giấy</a></li>
+                            <li class="text-start px-3 py-2"><a href="./location-page.html" class="text-black">Cinex Hai Bà Trưng</a></li>
+                            <li class="text-start px-3 py-2"> <a href="./location-page.html" class="text-black">Cinex Hoàn Kiếm</a> </li>
+                          </ul>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Đà Nẵng</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Nghệ An</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Hà Tĩnh</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Thái Bình</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i></li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Bắc Giang</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i></li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Vĩnh Phúc</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                       </ul> 
+                    </li>
+                    <li class="py-1"><a href="./lichchieu.html">Lịch chiếu</a></li>
+                    <li class="py-1"><a href="tin_tuc.html" class="text-danger ">Tin tức</a></li>
+                   
+                    
+                </ul>
+            </div>           
+            <div class="col-md-2" style="padding: 0;">
+                <div class="col-md-12 " >
+                    <form class="form-header m-auto my-3 rounded-5">
+                        <label for="search">
+                            <input required="" autocomplete="off" placeholder="Tìm kiếm" id="search" type="text">
+                            <div class="icon" style=" position: absolute;left: var(--padding);transition: 0.3s cubic-bezier(.4,0,.2,1);display: flex; justify-content: center; align-items: center;">
+                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+                                </svg>
+                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <button type="reset" class="close-btn">
+                                <svg viewBox="0 0 20 20" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-1 d-flex dropdown  " style="justify-content: center;align-items: center;padding: 0; width: 100px;">
+                <img src="./images/img-pro1.jpg" alt="" class=" dropdown-toggle rounded-circle" style="height: 40px" data-bs-toggle="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a class="text-decoration-none text-black " href="story.html" >Trang cá nhân</a></li>
+                  <li><a class="text-decoration-none text-black " href="view.html">Hành trình điện ảnh</a></li>
+                  <li><a class="text-decoration-none text-black " href="table.html">Thẻ thành viên</a></li>
+                  <li><a class="text-decoration-none text-black " href="cinema.html"><b>Đăng xuất</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="home-title">
+            <h2>TIN MỚI VÀ ƯU ĐÃI</h2>
+        </div>
+        <div>
+           <div class="row">
+            <div class="col-md-3">
+                    <div class="poster">
+                        <div><a href="./tin.html"><img src="./img/anh5.jpg" alt=""></a></div>
+                    </div>
+                    <div class="day">
+                        <a href="./tin.html">
+                            <h3>&nbsp;</h3>
+                            <h4>13/10/2023-20/10/2023</h4>
+                        </a>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                <div class="poster">
+                    <div><a href="./tin.html"><img src="./img/tintuc2.jpg" alt=""></a></div>
+                </div>
+                <div class="day">
+                    <a href="./tin.html">
+                        <h3>&nbsp;</h3>
+                        <h4>13/10/2023-20/10/2023</h4>
+                    </a>
+                </div>
+        </div>
+        <div class="col-md-3">
+            <div class="poster">
+                <div><a href="./tin.html"><img src="./img/tintuc-3.png" alt=""></a></div>
+            </div>
+            <div class="day">
+                <a href="./tin.html">
+                    <h3>&nbsp;</h3>
+                    <h4>13/10/2023-20/10/2023</h4>
+                </a>
+            </div>
+        </div>
+    <div class="col-md-3">
+        <div class="poster">
+            <div><a href="./tin.html"><img src="./img/anh4.png" alt=""></a></div>
+        </div>
+        <div class="day">
+            <a href="./tin.html">
+                <h3>&nbsp;</h3>
+                <h4>13/10/2023-20/10/2023</h4>
+            </a>
+        </div>
+    </div>
+           </div>
+           <div class="row">
+            <div class="col-md-3">
+                    <div class="poster">
+                        <div><a href="./tin.html"><img src="./img/tintuc-1.png" alt=""></a></div>
+                    </div>
+                    <div class="day">
+                        <a href="./tin.html">
+                            <h3>&nbsp;</h3>
+                            <h4>1/7/2023-31/12/2023</h4>
+                        </a>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                <div class="poster">
+                    <div><a href="./tin.html"><img src="./img/tintuc-4.png" alt=""></a></div>
+                </div>
+                <div class="day">
+                    <a href="./tin.html">
+                        <h3>&nbsp;</h3>
+                        <h4>13/10/2023-20/10/2023</h4>
+                    </a>
+                </div>
+        </div>
+        <div class="col-md-3">
+            <div class="poster">
+                <div><a href="./tin.html"><img src="./img/anh7.jpg" alt=""></a></div>
+            </div>
+            <div class="day">
+                <a href="./tin.html">
+                    <h3>&nbsp;</h3>
+                    <h4>13/10/2023-20/10/2023</h4>
+                </a>
+            </div>
+    </div>
+    <div class="col-md-3">
+        <div class="poster">
+            <div><a href="./tin.html"><img src="./img/anh8.jpg" alt=""></a></div>
+        </div>
+        <div class="day">
+            <a href="./tin.html">
+                <h3>&nbsp;</h3>
+                <h4>13/10/2023-20/10/2023</h4>
+            </a>
+        </div>
+     </div>
+           </div>
+           <div class="row">
+            <div class="col-md-3">
+                    <div class="poster">
+                        <div><a href="./tin.html"><img src="./img/tintc-5.jpg" alt=""></a></div>
+                    </div>
+                    <div class="day">
+                        <a href="./tin.html">
+                            <h3>&nbsp;</h3>
+                            <h4>13/10/2023-20/10/2023</h4>
+                        </a>
+                    </div>
+            </div>
+            <!-- <div class="col-md-3">
+                <div class="poster">
+                    <div><a href=""><img src="./img/anh7.jpg" alt=""></a></div>
+                </div>
+                <div class="day">
+                    <a href="">
+                        <h3>&nbsp;</h3>
+                        <h4>13/10/2023-20/10/2023</h4>
+                    </a>
+                </div>
+            </div>
+        <div class="col-md-3">
+            <div class="poster">
+                <div><a href=""><img src="./img/anh7.jpg" alt=""></a></div>
+            </div>
+            <div class="day">
+                <a href="">
+                    <h3>&nbsp;</h3>
+                    <h4>13/10/2023-20/10/2023</h4>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+        <div class="poster">
+            <div><a href=""><img src="./img/anh7.jpg" alt=""></a></div>
+        </div>
+        <div class="day">
+            <a href="">
+                <h3>&nbsp;</h3>
+                <h4>13/10/2023-20/10/2023</h4>
+            </a>
+        </div>
+        </div> -->
+           </div>
+        </div>
+    </div>
+    
+    <div class="footer bg-black" style="border-top: 1px solid #ccc;" >
+        <div class="container-fluid">
+          <div class="row mt-3">
+            <div class="col-md-2">
+              <img src="./images/Untitled_logo_3_free-file.jpg" alt="" class="img-fluid my-auto">
+            </div>
+            <div class="col-md-4 text-white">
+              <strong style="font-size: 20px;">Công ty cổ phần MTV CinexPlus</strong> <br>
+              Địa chỉ trụ sở: Tầng 3, số 595, đường Giải Phóng, phường Giáp Bát, quận Hoàng Mai, thành phố Hà Nội  <br>
+              Email: CinexPlus@mail.com <br>
+              Hotline: 0123456789       
+            </div>
+            <div class="col-md-3">
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Chính sách tuyển dụng</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Giới thiệu</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Điều khoản sử dụng</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Hướng dẫn đặt vé online</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Chính sách thanh toán, hoàn vé</a>
+
+            </div>
+            <div class="col-md-3 text-center ">
+              <strong class="text-white">Liên hệ với chúng tôi</strong> <br> <br>
+              <a href="" class=" text-decoration-none" style="color: blue;"><i class="footer-icon ti-facebook "></i></a>
+              <a href="" class="text-white text-decoration-none"><i class="footer-icon ti-youtube text-danger"></i></a>
+              <a href="" class="text-info text-decoration-none"><i class="footer-icon ti-twitter"></i></a>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+   
+</body>
+
+</html>

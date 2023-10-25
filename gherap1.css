@@ -1,0 +1,337 @@
+.container p{
+    text-align: center;
+}
+.full_width{
+    display: flex;
+    justify-content: space-around;
+}
+.img_man{
+    margin-left: 142px;
+    margin-top: 5px;
+
+}
+#selectedSeatsList{
+    display: flex;
+}
+
+.seat{
+   width: 3em;
+   height: 3em;
+}
+.check_show{
+    margin-top: 20px;
+    
+}
+.full_width{
+    margin-bottom: 10px;
+   
+}
+
+.seat-selected {
+            background-color:#03599d; /* Màu cho ghế đã chọn */
+}
+/* .button{
+    margin-left: 1200px;
+} */
+.thanhtoan{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    margin-top: 20px;
+    line-height: 30px;
+    border: 1px solid ;
+}
+
+
+
+
+
+/* bong nuoc */
+
+
+
+
+.container-x {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    font-size: 20px;
+    background-color: rgb(0, 0,0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.container-x.open{
+    display: flex;
+}
+.modal-container-x{
+    background-color: #fff;
+    width: 1000px;
+    height: 600px;
+    max-width: calc(100% - 32px);
+    animation: modalbuy ease 0.3s;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+@keyframes modalbuy{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+
+}
+.img-combo {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.img-combo1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.fa-plus{
+    margin: 0 5px;
+    color: #ccc;
+    background-color: blue;
+    border-radius: 8px;
+    font-size: 18px;
+    
+}
+#btn-close-x{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    float: left;
+
+    margin-left: 50px;
+}
+.fa-minus{
+    background-color: bisque;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.Buy{
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    background-color:  rgb(35, 89, 237);
+}   
+.Buy:hover{
+   
+    cursor: pointer;
+}
+.x{
+    width: 100px;
+    height: 30px;
+
+}
+.header-x{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.voucher-icon, .fa-regular{
+    font-size: 35px;
+}
+.voucher{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 17px;
+}
+.voucher-x{
+    width: 50%;
+    height: auto;
+    margin-right: 50px;
+}
+.cc{
+    display: flex;
+    margin-left: 70px;
+}
+.non{
+    font-size: 17px;
+    float: left;
+    margin: 20px 0 0 50px;
+    line-height: 20px;
+}
+.cc h2{
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 0;
+}
+.non label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.voucher p{
+    padding: 35px 0 0 20px;
+}
+.voucher-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .dong-button{
+   margin-bottom: 20px;
+    float: right;
+}
+.dong{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+} */
+
+
+
+.table-buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .xx{
+    margin-left: 20px;
+  }
+
+  th:first-child, td:first-child {
+    margin-left: 50px;
+  }
+
+  .thanhtoan-y{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    font-size: 17px;
+    background-color: rgb(0, 0,0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container-y{
+    background-color: #fff;
+    width: 1000px;
+    height: 670px;
+    max-width: calc(100% - 32px);
+    animation: modalbuy ease 0.5s;
+}
+@keyframes modalbuy{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.icon-bank{
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+}
+.head-x{
+    text-align: center;
+    margin-top: 20px;
+}
+.thanhtoan-body{
+    font-size: 18px;
+}
+.money-inf{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.sum-money{
+    width: 50%;
+    margin-left: 50px;
+}
+.information{
+    width: 50%;
+   
+}
+.information>p{
+    margin-left: 50px;
+}
+.spa{
+    margin-right: 10px;
+}
+.thanhtoan-body h2, h3{
+    margin-left: 30px;
+}
+.hear-z h2{
+    margin: 20px 0 25px 30px;
+}
+.body-buy{
+    text-align: center;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.buy-online{
+    padding-left: 50px;
+}
+
+.thanhtoan-k{
+    margin-top: 40px;
+    text-align: center;
+ }
+ .dong-x{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(35, 89, 237);
+    color: #fff;
+    height: 50px;
+    width: 130px;
+    line-height: calc(45px);
+    text-decoration: none;
+}
+ .thanhtoan-y{
+    display: none;
+ }
+ .thanhtoan-y.open{
+    display: flex;
+ }
+ .money-inf p{
+    font-size: 18px;
+ }

@@ -1,0 +1,16 @@
+
+* {
+    font-size: 15px;
+}
+.chair{
+    display: flex;
+    justify-content: center;
+}
+.img_chair{
+    margin: 60px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.main_chair h1{
+    text-align: center;
+}

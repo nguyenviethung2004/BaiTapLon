@@ -1,0 +1,369 @@
+.icon{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+}
+.box-search{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.header{
+    border: 1px solid #ccc;
+}
+.nav-img{
+    height: 70px; width: 70px
+}
+.user-icon{
+    font-weight: 1000;
+    font-size: 26px;
+    opacity: 0.6;
+    line-height: 36px;
+    margin-right:20px;
+}
+.nav-language{
+    text-decoration: none;
+    color: black;
+    line-height: 36px;
+}
+.language-click{
+    margin: 0 40px;
+}
+.film-info{
+    background-image:  linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%) ,url('images/img-bg.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer .footer-icon{
+    font-size:30px;
+}
+
+
+
+
+/* css cho film  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+
+.modal-content {
+    height: 100%;
+}
+
+#modal-container {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal {
+    background: #fff;
+    width: 1000px;
+    height: 510px;
+}
+
+.modal-header {
+    background-color: #f7f8fa;
+    color: #333333;
+    text-align: center;
+    border-bottom: 1px solid rgb(212, 205, 205);
+    ;
+    padding: 15px 20px;
+    position: relative;
+
+}
+
+.modal-header h3 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+}
+
+button#btn-close {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 23px;
+    cursor: pointer;
+    color: gray;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nav-tabs .nav-link {
+    color: #333333;
+    font-weight: 450;
+}
+
+.modal-body {
+    max-height: 600px;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: 1px solid rgb(212, 205, 205);
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.modal-body h1 {
+    text-align: center;
+    font-size: 33px;
+    color: #333333;
+    padding: 15px;
+}
+
+.modal-footer button.btn-secondary {
+    background-color: #616363;
+    color: #fff;
+    border: none;
+}
+
+a:focus {
+    outline: 2px solid blue;
+}
+
+a.btn.default {
+    background-color: #9e9d9d7e;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+div.font-smaller {
+    font-size: 11px;
+}
+
+a.nav-link span {
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.tab-content {
+    padding: 20px;
+    height: 80%;
+    overflow-y: auto;
+}
+
+span.font-lg {
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav.nav-tabs {
+    padding-left: 60px;
+}
+.wrapper.open{
+    display: flex;
+}
+.wrapper{
+    display: none;
+}
+.show-time.open {
+    display: flex;
+}
+.show-time {
+    display: none;
+}
+@keyframes modalbuys{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.modal-container-k{
+    animation: modalbuys ease 0.5s;
+}
+#modal-dialog-container {
+width: 100%;
+height: 100vh;
+background: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 0px;
+left: 0px;
+opacity: 0;
+pointer-events: none;
+transition: all 0.25s ease-in-out;
+}
+#modal-dialog-container.show-modal {
+opacity: 1;
+pointer-events: all;
+display: block;
+}
+
+#modal2 {
+background: #fff;
+max-width: 700px;
+min-width: none;
+height: 458px;
+min-height: none;
+position: relative;
+top: 0px;
+left: 50%;
+transform: translateX(-50%);
+transition: all 0.25s ease-in-out;
+}
+
+#modal-dialog-container.show-modal #modal2 {
+top: 100px;
+transition: all 0.25s ease-in-out;
+}
+.modal-dialog-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+border-bottom: 1px solid #dedede;
+}
+
+.modal-dialog-header h3 {
+margin: 0;
+}
+button#btn-closed {
+outline: none;
+border: none;
+background: none;
+font-size: 35px;
+cursor: pointer;
+}
+
+.modal-dialog-body {
+padding: 15px 20px 15px;
+}
+
+.modal-dialog-footer {
+text-align: center;
+}
+
+#datve {
+background-color: rgb(35, 89, 237);
+color: #fff;
+border: none;
+padding: 12px 30px;
+cursor: pointer;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+display: block;
+margin: 0 auto;
+
+}
+
+.modal-footer {
+text-align: center;
+padding: 20px;
+}
+
+a.nav-link span {
+color: #000000;
+font-size: 38px;
+}
+
+a.nav-link {
+color: #000000;
+font-size: 18px;
+}
+
+
+span.font-lg {
+font-size: 18px;
+color: #333333;
+font-weight: bold;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+a.btn.default {
+background-color: rgb(237, 230, 230);
+}
+
+ul.nav {
+padding: 20px;
+}
+
+div.col-lg-2 {
+padding: 10px;
+}
+
+div.modal-dialog-header h3 {
+font-size: 23px;
+}
+
+div.modal-dialog-body {
+color: rgb(16, 94, 184);
+}
+
+#modal-dialog-container.show-modal #modal2 {
+top: 125px;
+
+}
+
+div.modal-dialog-body {
+padding: 30px 20px;
+
+}
+
+div.modal-dialog-body h3,
+h4 {
+padding: 8px;
+}
+
+div.modal-dialog-body h3 {
+font-size: 23px;
+font-weight: bold;
+}
+
+div.modal-dialog-body h4 {
+font-size: 17px;
+}
+
+div.modal-dialog-footer {
+padding: 30px;
+}
+.modal-demo2-v{
+animation: modalbuyss ease 0.5s;
+}
+/* @keyframes modalbuyss{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }to{
+        opacity: 2;
+        transform: translateY(0);
+    }
+} */
+.dat-ve.open{
+display: flex;
+}
+.dat-ve{
+display: none;
+}

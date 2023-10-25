@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="tin_tuc.css">
+    <link rel="stylesheet" href="main_web.css">
+</head>
+<body>
+    <div class="header">
+        <div class="row bg-black " style="border-bottom: 1px solid #fff;">
+            <div class="col-md-2" >    
+                <div class="col-md-10" ><img src="./images/Untitled_logo_3_free-file.jpg" alt="" class="img-fluid"></div>             
+            </div>          
+            <div class="col-md-7 nav "  style="padding: 0;">
+                <ul class="navbar-header col-md-11  my-auto" style="margin-left: 12%;">
+                    <li class="py-1"><a href="./demo.html" class="text-danger ">Trang chủ</a></li>
+                    <li class="py-1 nav-location py-2" style="font-size: 17px; color: #fff;">Danh sách rạp
+                      <i class="ti-angle-down " style="font-size: 12px;margin-left: 2px;position: relative;"></i>
+                       <ul class="location-list bg-white text-black " >
+                        <li class="text-start px-3 py-2 ">Hà Nội
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                          <ul class="location-cinema location-cinema1 bg-white ">
+                            <li class="text-start px-3 py-2"><a href="./location-page.html" class="text-black">Cinex Thanh Xuân</a></li>
+                            <li class="text-start px-3 py-2"> <a href="./location-page.html" class="text-black">Cinex Mỹ Đình</a></li>
+                            <li class="text-start px-3 py-2"> <a href="./location-page.html" class="text-black">Cinex Cầu Giấy</a></li>
+                            <li class="text-start px-3 py-2"><a href="./location-page.html" class="text-black">Cinex Hai Bà Trưng</a></li>
+                            <li class="text-start px-3 py-2"> <a href="./location-page.html" class="text-black">Cinex Hoàn Kiếm</a> </li>
+                          </ul>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Đà Nẵng</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Nghệ An</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Hà Tĩnh</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Thái Bình</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i></li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Bắc Giang</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i></li>
+                        <li class="text-start px-3 py-2">
+                          <a href="./location-page.html" class="text-black">Vĩnh Phúc</a>
+                          <i class="ti-angle-right float-end my-2" style="font-size: 12px;position: relative;"></i>
+                        </li>
+                       </ul> 
+                    </li>
+                    <li class="py-1"><a href="./lichchieu.html">Lịch chiếu</a></li>
+                    <li class="py-1"><a href="tin_tuc.html">Tin tức</a></li>
+                   
+                    
+                </ul>
+            </div>           
+            <div class="col-md-2" style="padding: 0;">
+                <div class="col-md-12 " >
+                    <form class="form-header m-auto my-3 rounded-5">
+                        <label for="search">
+                            <input required="" autocomplete="off" placeholder="Tìm kiếm" id="search" type="text">
+                            <div class="icon" style=" position: absolute;left: var(--padding);transition: 0.3s cubic-bezier(.4,0,.2,1);display: flex; justify-content: center; align-items: center;">
+                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-on">
+                                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round" stroke-linecap="round"></path>
+                                </svg>
+                                <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="swap-off">
+                                    <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linejoin="round" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <button type="reset" class="close-btn">
+                                <svg viewBox="0 0 20 20" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-1 d-flex dropdown  " style="justify-content: center;align-items: center;padding: 0; width: 100px;">
+                <img src="./images/img-pro1.jpg" alt="" class=" dropdown-toggle rounded-circle" style="height: 40px" data-bs-toggle="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a class="text-decoration-none text-black " href="story.html" >Trang cá nhân</a></li>
+                  <li><a class="text-decoration-none text-black " href="view.html">Hành trình điện ảnh</a></li>
+                  <li><a class="text-decoration-none text-black " href="table.html">Thẻ thành viên</a></li>
+                  <li><a class="text-decoration-none text-black " href="cinema.html"><b>Đăng xuất</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="title_1 mt-3">
+            <h5>CHƯƠNG TRÌNH ƯU ĐÃI DÀNH CHO CHỦ THẺ SHINHAN TẠI CINE</h5>
+        </div>
+       <div class="row">
+        <div class="col-md-4 shin"><img src="./img/anhto.jpg" alt=""></div>
+        <div class="col-md-8 mt-2">
+            <p><strong>1. Thời gian triển khai: Mỗi Ngày từ ngày 01/07/2023– 31/12/2023. Chương trình sẽ kết thúc sớm khi hết ngân sách.</strong></p>
+            <p><strong>2. Nội dung chương trình ưu đãi:</strong></p>
+            <p>- Chi tiêu cùng thẻ tín dụng Shinhan Việt Nam và nhận vé xem phim  miễn phí khi mua vé trực tuyến trên ứng dụng Cinema <br> - Cách thức nhận ưu đãi:</p>
+            <p><strong>Bước 1:</strong>Chọn mua vé xem phim. <br> 
+                <strong>Bước 2:</strong>Tại mục “Giảm giá”, chọn ô “Đối tác”, tiếp tục chọn “SHINHAN”. <br> 
+                <strong>Bước 3:</strong> Chủ thẻ hợp lệ tiếp tục đến bước thanh toán và sử dụng thẻ thanh toán Shinhan <br> 
+                <strong>Bước 4:</strong>Chủ thẻ hợp lệ xuất trình thông tin tại rạp Cine để nhận vé xem phim.
+            </p>
+            <p><strong><em>Ghi chú:</em></strong></p>
+            <p>- &Aacute;p dụng cho tất cả Chủ thẻ Shinhan với những đầu BIN sau: 401559,469673,469672,450255,403013,426021</p>
+            <p>- Số lượt ưu đ&atilde;i &aacute;p dụng:&nbsp;Từ 01/07/2023 &ndash; 31/12/2023 &aacute;p dụng 30 ưu đ&atilde;i/ ng&agrave;y khuyến m&atilde;i.</p>
+            <p>- Chương tr&igrave;nh bắt đầu từ <strong>09h00 - 23h59 </strong>mỗi ng&agrave;y.</p>
+            <p>- &Aacute;p dụng cho v&eacute; xem phim 2D tại tất cả rạp  tr&ecirc;n to&agrave;n quốc.</p>
+            <p>- Mỗi chủ thẻ được nhận tối đa 1 ưu đ&atilde;i/ 24h v&agrave; được tham gia tối đa 4 lần ưu đ&atilde;i tr&ecirc;n th&aacute;ng.</p>
+            <p><br /><strong>3.&nbsp; QUY ĐỊNH CHUNG</strong></p>
+            <p>- Chương tr&igrave;nh chỉ &aacute;p dụng cho hạng ghế thường v&agrave; hạng ghế VIP cho phim 2D. Mỗi cặp v&eacute; được &aacute;p dụng cho c&ugrave;ng một bộ phim, một suất chiếu v&agrave; c&ugrave;ng hạng ghế.</p>
+            <p>- &Aacute;p dụng đặt v&eacute; trong ng&agrave;y Lễ/ Tế nhưng kh&ocirc;ng &aacute;p dụng cho c&aacute;c suất chiếu Lễ, tết</p>
+            <p>- Kh&ocirc;ng &aacute;p dụng cho suất chiếu sớm, suất chiếu đặc biệt, v&agrave; c&aacute;c ph&ograve;ng chiếu đặc biệt như: IMAX, 4DX, GOLD CLASS, STARIUM, L&rsquo;AMOUR, SWEETBOX&hellip;</p>
+            <p>- Chương tr&igrave;nh &aacute;p dụng cho tất cả c&aacute;c cụm rạp chiếu phim Cine tr&ecirc;n to&agrave;n quốc.</p>
+            <p>- Khuyến m&atilde;i được &aacute;p dụng với số lượng giới hạn mỗi ng&agrave;y.</p>
+            <p>- V&eacute; xem phim kh&ocirc;ng c&oacute; gi&aacute; trị đổi th&agrave;nh tiền mặt hay ho&agrave;n trả.</p>
+            <p>- Chương tr&igrave;nh kh&ocirc;ng &aacute;p dụng đồng thời với c&aacute;c chương tr&igrave;nh khuyến m&atilde;i kh&aacute;c.</p>
+            <p>- KH chỉ tiến h&agrave;nh thanh to&aacute;n khi hệ thống đ&atilde; hiển thị số tiền giảm gi&aacute;. Shinhan v&agrave; Cine kh&ocirc;ng chịu tr&aacute;ch nhiệm về việc hệ thống kh&ocirc;ng hiển thị số tiền giảm gi&aacute; m&agrave; KH vẫn tiến h&agrave;nh thanh to&aacute;n.</p>
+            <p>- Cine bảo lưu to&agrave;n quyền điều chỉnh hoặc kết th&uacute;c chương tr&igrave;nh tại bất kỳ thời điểm n&agrave;o m&agrave; kh&ocirc;ng cần th&ocirc;ng b&aacute;o trước hoặc chịu tr&aacute;ch nhiệm bồi thường bằng tiền mặt hoặc t&agrave;i sản.</p>
+            <p>- Cine bảo lưu quyền kh&ocirc;ng chấp nhận hoặc từ chối người tham gia c&oacute; dấu hiệu vi phạm c&aacute;c quy định chương tr&igrave;nh (căn cứ theo Điều khoản sử dụng dịch vụ hoặc c&oacute; bất k&igrave; h&agrave;nh vi n&agrave;o m&agrave; b&ecirc;n tổ chức cho rằng l&agrave; kh&ocirc;ng ph&ugrave; hợp hoặc kh&ocirc;ng thể chấp nhận).</p>
+            <p>- Cine bảo lưu quyền hủy bỏ, sửa đổi v&agrave;/hoặc điều chỉnh to&agrave;n bộ hoặc một phần bất k&igrave; c&aacute;c điều kiện v&agrave; điều khoản của chương tr&igrave;nh tại bất kỳ thời điểm n&agrave;o m&agrave; kh&ocirc;ng cần th&ocirc;ng b&aacute;o trước cho người tham gia.</p>
+            <p>- Trong trường hợp xảy ra tranh chấp, quyết định của Cine l&agrave; quyết định cuối c&ugrave;ng.</p>
+        </div>
+       </div>
+    </div>
+    
+    <div class="footer bg-black" style="border-top: 1px solid #ccc;" >
+        <div class="container-fluid">
+          <div class="row mt-3">
+            <div class="col-md-2">
+              <img src="./images/logo2.jpg" alt="" class="img-fluid my-auto">
+            </div>
+            <div class="col-md-4 text-white">
+              <strong style="font-size: 20px;">Công ty cổ phần MTV CinexPlus</strong> <br>
+              Địa chỉ trụ sở: Tầng 3, số 595, đường Giải Phóng, phường Giáp Bát, quận Hoàng Mai, thành phố Hà Nội  <br>
+              Email: CinexPlus@mail.com <br>
+              Hotline: 0123456789       
+            </div>
+            <div class="col-md-3">
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Chính sách tuyển dụng</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Giới thiệu</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Điều khoản sử dụng</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Hướng dẫn đặt vé online</a> <br>
+              <a href="" class="text-white text-decoration-none"><i class="ti-arrow-right mx-2"></i>Chính sách thanh toán, hoàn vé</a>
+
+            </div>
+            <div class="col-md-3 text-center ">
+              <strong class="text-white">Liên hệ với chúng tôi</strong> <br> <br>
+              <a href="" class=" text-decoration-none" style="color: blue;"><i class="footer-icon ti-facebook "></i></a>
+              <a href="" class="text-white text-decoration-none"><i class="footer-icon ti-youtube text-danger"></i></a>
+              <a href="" class="text-info text-decoration-none"><i class="footer-icon ti-twitter"></i></a>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+   
+</body>
+
+</html>
