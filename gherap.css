@@ -14,3 +14,29 @@
 .main_chair h1{
     text-align: center;
 }
+@media (max-width: 768px) {
+    .modal-container-x {
+        width: 90%;
+        height: 400px;
+    }
+  }
+
+@media (max-width: 480px) {
+.modal-container-x {
+    width: 90%;
+    height: 300px;
+}
+}
+@media (max-width: 768px) {
+    .modal-container-y {
+        width: 90%;
+        height: 400px;
+    }
+  }
+
+@media (max-width: 480px) {
+.modal-container-y {
+    width: 90%;
+    height: 300px;
+}
+}
