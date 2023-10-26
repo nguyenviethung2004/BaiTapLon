@@ -531,14 +531,14 @@ div.modal-dialog-footer {
   font-size: 48px;
   position: absolute;
   margin-top: -233px;
-  margin-left: 120px;
+  margin-left: 118px;
 }
-.card-img-top:hover+.me{
+.card-img-top:hover+.me,.me:hover{
   display: block;
-  opacity: 1;
- 
+}
+.card-img-top:hover{
+  opacity: 0.8;
 }
 .fa-circle-play{
   color: #fff;
 }
-
